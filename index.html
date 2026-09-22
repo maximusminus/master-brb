@@ -46,8 +46,49 @@ th a{color:var(--acc)}
 footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--rule);font-size:12.5px;color:var(--faint);
   max-width:76ch;line-height:1.6}
 footer a{color:var(--acc)}
+
+/* ---------- barra de relato (branco e vermelho) ---------- */
+.rbar{ --r:#c1121f; --r-fundo:#ffffff; --r-borda:#e8b4b2;
+  max-width:var(--rw, 68rem); margin:2.25rem auto; padding-inline:clamp(.75rem,3vw,1.25rem); }
+.rbar-in{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;
+  gap:.85rem 1.25rem; background:var(--r-fundo); border:2px solid var(--r);
+  border-radius:.6rem; padding:.95rem 1.15rem; }
+.rbar-t{ margin:0; color:var(--r); font-weight:600; font-size:.95rem; line-height:1.35; }
+.rbar-t small{ display:block; font-weight:400; font-size:.82rem; color:#8c3b36; margin-top:.15rem; }
+.rbtn{ font:inherit; font-size:.9rem; font-weight:600; cursor:pointer; white-space:nowrap;
+  border:2px solid #c1121f; border-radius:.45rem; padding:.55rem 1.05rem;
+  background:#c1121f; color:#fff; }
+.rbtn:hover{ background:#fff; color:#c1121f; }
+.rbtn:focus-visible{ outline:3px solid #c1121f; outline-offset:2px; }
+.rbtn.ghost{ background:#fff; color:#c1121f; }
+.rbtn.ghost:hover{ background:#f7e6e6; }
+.rdlg{ border:2px solid #c1121f; border-radius:.7rem; padding:0; max-width:34rem; width:calc(100% - 2rem);
+  background:#fff; color:#16181c; }
+.rdlg::backdrop{ background:rgba(16,18,22,.55); }
+.rdlg form{ padding:1.25rem 1.35rem 1.1rem; }
+.rdlg h2{ margin:0 0 .35rem; font-size:1.1rem; color:#c1121f; }
+.rnote{ margin:0 0 1rem; font-size:.85rem; line-height:1.5; color:#5c616b; }
+.rdlg label{ display:block; font-size:.82rem; font-weight:600; color:#16181c; margin-bottom:.85rem; }
+.rdlg textarea,.rdlg input[type=email],.rdlg select{ display:block; width:100%; box-sizing:border-box;
+  margin-top:.3rem; font:inherit; font-size:.9rem; font-weight:400; color:#16181c; background:#fff;
+  border:1px solid #c9ccd2; border-radius:.35rem; padding:.5rem .6rem; }
+.rdlg textarea:focus,.rdlg input:focus,.rdlg select:focus{ outline:2px solid #c1121f; outline-offset:1px; }
+.ract{ display:flex; gap:.6rem; justify-content:flex-end; margin:.25rem 0 0; }
+.rstatus{ margin:.75rem 0 0; font-size:.85rem; min-height:1.2em; color:#5c616b; }
+.rstatus.erro{ color:#c1121f; font-weight:600; }
+.rstatus.ok{ color:#2c6543; font-weight:600; }
+.rhp{ position:absolute; left:-9999px; width:1px; height:1px; opacity:0; }
+@media (max-width:30rem){ .rbar-in{ flex-direction:column; align-items:stretch; } .rbtn{ width:100%; } }
 </style>
 <div class="wrap">
+<div class="rbar" data-relatar-barra>
+  <div class="rbar-in">
+    <p class="rbar-t">Achou um erro? Tem uma sugestão?
+      <small>Todo número desta página é reproduzível — e contestável. Diga onde erramos.</small></p>
+    <button type="button" class="rbtn" data-relatar>Relatar erro ou sugestão</button>
+  </div>
+</div>
+
 <header>
   <div class="kick">Dados abertos · Câmara Legislativa do Distrito Federal</div>
   <h1>Relatórios reprodutíveis sobre o que a CLDF publica<br>— e sobre o que ela não publica</h1>
@@ -61,8 +102,8 @@ footer a{color:var(--acc)}
       <p class="linha">Toda ocorrência das três palavras-chave no acervo aberto da CLDF, com o documento exato.</p>
       <div class="nums"><div><b>743</b><span>ocorrências</span></div><div><b>281</b><span>no caso Master</span></div><div><b>66</b><span>proposições</span></div><div><b>28</b><span>votações</span></div></div>
       <p class="vs">Versões:
-        <a href="dossie/v3/" title="b7edb415b2e8358d">v3</a>
-        <span class="sh mono" title="sha256 da versão atual">b7edb415b2e8358d</span>
+        <a href="dossie/v4/" title="70053905efd7b017">v4</a> <a href="dossie/v3/" title="b7edb415b2e8358d">v3</a>
+        <span class="sh mono" title="sha256 da versão atual">70053905efd7b017</span>
       </p>
     </article>
 
@@ -71,8 +112,8 @@ footer a{color:var(--acc)}
       <p class="linha">A linha do tempo conjunta do pedido de informação e da lei — e a resposta que nunca veio.</p>
       <div class="nums"><div><b>106</b><span>eventos</span></div><div><b>5d 17h</b><span>da criação à sanção</span></div><div><b>9</b><span>emendas</span></div><div><b>0</b><span>respostas</span></div></div>
       <p class="vs">Versões:
-        <a href="tramitacao/v2/" title="1fe0a1746dc3ff42">v2</a>
-        <span class="sh mono" title="sha256 da versão atual">1fe0a1746dc3ff42</span>
+        <a href="tramitacao/v3/" title="d794bfc01e46aefd">v3</a> <a href="tramitacao/v2/" title="1fe0a1746dc3ff42">v2</a>
+        <span class="sh mono" title="sha256 da versão atual">d794bfc01e46aefd</span>
       </p>
     </article>
 
@@ -81,8 +122,8 @@ footer a{color:var(--acc)}
       <p class="linha">O que existe, o que funciona, o que não funciona, o que está concentrado e fragmentado.</p>
       <div class="nums"><div><b>1.231</b><span>pedidos de informação</span></div><div><b>0</b><span>respostas legíveis</span></div><div><b>55.610</b><span>documentos sem texto</span></div><div><b>23 de 48</b><span>tipos nunca legíveis</span></div></div>
       <p class="vs">Versões:
-        <a href="dificuldades/v1/" title="a891f818142d38e9">v1</a>
-        <span class="sh mono" title="sha256 da versão atual">a891f818142d38e9</span>
+        <a href="dificuldades/v2/" title="e7d12802f67216c1">v2</a> <a href="dificuldades/v1/" title="a891f818142d38e9">v1</a>
+        <span class="sh mono" title="sha256 da versão atual">e7d12802f67216c1</span>
       </p>
     </article>
 
@@ -107,7 +148,7 @@ publicado para que qualquer alteração futura seja detectável.</p>
 <p class="sub">Cada relatório tem um endereço estável — <span class="mono">/dossie/</span>,
 <span class="mono">/tramitacao/</span>, <span class="mono">/dificuldades/</span> — que sempre aponta para a
 versão mais recente. Cada versão também fica congelada no seu próprio endereço
-(<span class="mono">/dossie/v3/</span>, por exemplo) e nunca muda depois de publicada. O manifesto
+(<span class="mono">/dossie/v4/</span>, por exemplo) e nunca muda depois de publicada. O manifesto
 <a href="versoes.json" class="mono">versoes.json</a> lista todas as versões com data, tamanho e
 <i>hash</i>, para que uma citação feita hoje continue verificável amanhã.</p>
 
@@ -117,5 +158,83 @@ CC BY-SA 4.0, a mesma licença que a fonte declara. As fontes são a API públic
 de dados abertos da Casa, os painéis do Portal da Transparência e a Biblioteca Digital. Nenhum sistema foi
 acessado com credencial e nenhuma informação restrita foi usada.</p>
 </footer>
+<div class="rbar" data-relatar-barra>
+  <div class="rbar-in">
+    <p class="rbar-t">Achou um erro? Tem uma sugestão?
+      <small>Todo número desta página é reproduzível — e contestável. Diga onde erramos.</small></p>
+    <button type="button" class="rbtn" data-relatar>Relatar erro ou sugestão</button>
+  </div>
+</div>
+
 </div>
 </html>
+
+<dialog class="rdlg" id="rdlg">
+  <form id="rform" novalidate>
+    <h2>Relatar erro ou sugestão</h2>
+    <p class="rnote">Vai direto para quem mantém este relatório. Esta página não guarda
+      nem lê o que você escrever — a mensagem sai do seu navegador para o canal de
+      contato e nada fica registrado aqui.</p>
+    <label for="rtipo">Tipo
+      <select id="rtipo" name="tipo">
+        <option>Erro nos dados</option>
+        <option>Erro de interpretação</option>
+        <option>Sugestão</option>
+        <option>Outro</option>
+      </select></label>
+    <label for="rmsg">Mensagem
+      <textarea id="rmsg" name="message" rows="6" required
+        placeholder="Onde está o erro, ou o que deveria existir aqui e não existe."></textarea></label>
+    <label for="rmail">Seu e-mail (opcional, para resposta)
+      <input id="rmail" name="email" type="email" autocomplete="email"></label>
+    <input type="checkbox" name="botcheck" class="rhp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <p class="ract">
+      <button type="button" class="rbtn ghost" data-fechar>Cancelar</button>
+      <button type="submit" class="rbtn">Enviar</button></p>
+    <p class="rstatus" role="status"></p>
+  </form>
+</dialog>
+
+<script id="relatar-widget">
+/* ---------- barra de relato: abrir, enviar, fechar ---------- */
+(function () {
+  var CHAVE = "596b7023-f2a3-4f29-8f0b-fb446fad4664", ENDPOINT = "https://api.web3forms.com/submit";
+  var dlg = document.getElementById('rdlg');
+  var form = document.getElementById('rform');
+  if (!dlg || !form) { return; }
+  var status = form.querySelector('.rstatus');
+  var enviar = form.querySelector('button[type=submit]');
+
+  function dizer(txt, classe) { status.className = 'rstatus' + (classe ? ' ' + classe : ''); status.textContent = txt; }
+
+  document.addEventListener('click', function (ev) {
+    var abre = ev.target.closest('[data-relatar]');
+    if (abre) { dizer(''); if (dlg.showModal) { dlg.showModal(); } else { dlg.setAttribute('open', ''); }
+      var m = document.getElementById('rmsg'); if (m) { m.focus(); } return; }
+    if (ev.target.closest('[data-fechar]')) { if (dlg.close) { dlg.close(); } else { dlg.removeAttribute('open'); } }
+  });
+
+  form.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    if (form.botcheck.checked) { dizer('Mensagem enviada. Obrigado.', 'ok'); form.reset(); return; }
+    var msg = form.message.value.trim();
+    if (!msg) { dizer('Escreva a mensagem antes de enviar.', 'erro'); form.message.focus(); return; }
+    var corpo = { access_key: CHAVE, message: msg, email: form.email.value,
+      subject: 'Relato — ' + form.tipo.value + ' — ' + document.title,
+      from_name: 'Relatórios CLDF', tipo: form.tipo.value,
+      pagina: location.href, titulo: document.title };
+    enviar.disabled = true; dizer('Enviando…');
+    fetch(ENDPOINT, { method: 'POST',
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify(corpo) })
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        enviar.disabled = false;
+        if (j.success) { dizer('Mensagem enviada. Obrigado.', 'ok'); form.reset(); }
+        else { dizer('Não foi possível enviar: ' + (j.message || 'erro desconhecido') + '.', 'erro'); }
+      })
+      .catch(function (e) { enviar.disabled = false;
+        dizer('Não foi possível enviar: ' + e.message + '.', 'erro'); });
+  });
+})();
+</script>

@@ -25,10 +25,17 @@
    ],
    "atual": {
     "caminho": "dossie/",
-    "sha256": "b7edb415b2e8358df89c7944b93bdc225b724ff1b985111c727fa302f46faf50",
-    "bytes": 654881
+    "sha256": "70053905efd7b017a1b78ced6d87701cabb3c0c44c0b347f1d7eccffc8c1b244",
+    "bytes": 661346
    },
    "versoes": [
+    {
+     "v": "v4",
+     "caminho": "dossie/v4/",
+     "bytes": 661346,
+     "sha256": "70053905efd7b017a1b78ced6d87701cabb3c0c44c0b347f1d7eccffc8c1b244",
+     "data": "2026-09-22"
+    },
     {
      "v": "v3",
      "caminho": "dossie/v3/",
@@ -62,10 +69,17 @@
    ],
    "atual": {
     "caminho": "tramitacao/",
-    "sha256": "1fe0a1746dc3ff422f8085fc68a8d1df432736df9522f070547235b109f5b4d3",
-    "bytes": 138243
+    "sha256": "d794bfc01e46aefd5c63da141d88c0f0d78cff5ede91ecf36090b3d76a04d66f",
+    "bytes": 144708
    },
    "versoes": [
+    {
+     "v": "v3",
+     "caminho": "tramitacao/v3/",
+     "bytes": 144708,
+     "sha256": "d794bfc01e46aefd5c63da141d88c0f0d78cff5ede91ecf36090b3d76a04d66f",
+     "data": "2026-09-22"
+    },
     {
      "v": "v2",
      "caminho": "tramitacao/v2/",
@@ -99,10 +113,17 @@
    ],
    "atual": {
     "caminho": "dificuldades/",
-    "sha256": "a891f818142d38e9f02a649c9b61fd87c5f0077a555623fd976d34779e2c94f6",
-    "bytes": 467473
+    "sha256": "e7d12802f67216c1e12a603d8a1e84cad9c0c39cfb5cca8b2b594b72f9157a88",
+    "bytes": 473938
    },
    "versoes": [
+    {
+     "v": "v2",
+     "caminho": "dificuldades/v2/",
+     "bytes": 473938,
+     "sha256": "e7d12802f67216c1e12a603d8a1e84cad9c0c39cfb5cca8b2b594b72f9157a88",
+     "data": "2026-09-22"
+    },
     {
      "v": "v1",
      "caminho": "dificuldades/v1/",

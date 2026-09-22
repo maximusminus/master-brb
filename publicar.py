@@ -7,6 +7,8 @@ Rodar da raiz do repositorio:  python3 publicar.py
 """
 import hashlib, html, io, json, os, re, datetime
 
+import relatar
+
 RAIZ = os.path.dirname(os.path.abspath(__file__))
 HOJE = datetime.date.today().isoformat()
 
@@ -81,7 +83,7 @@ def main():
         f.write("\n")
 
     with io.open(os.path.join(RAIZ, "index.html"), "w", encoding="utf-8") as f:
-        f.write(landing(man))
+        f.write(relatar.injetar(landing(man)))
     print(f"versoes.json e index.html gerados — {len(man['artefatos'])} artefatos, "
           f"{sum(len(a['versoes']) for a in man['artefatos'])} versões, {len(man['dados'])} arquivos de dados")
 
@@ -98,6 +100,9 @@ def landing(man):
         <span class="sh mono" title="sha256 da versão atual">{e(a['atual']['sha256'][:16] if a['atual']['sha256'] else '')}</span>
       </p>
     </article>""" for a in man["artefatos"])
+
+    prim = man["artefatos"][0]
+    exemplo_v = prim["versoes"][0]["caminho"] if prim["versoes"] else prim["atual"]["caminho"]
 
     def bytes_br(n):
         return f"{n:,}".replace(",", ".")
@@ -180,7 +185,7 @@ publicado para que qualquer alteração futura seja detectável.</p>
 <p class="sub">Cada relatório tem um endereço estável — <span class="mono">/dossie/</span>,
 <span class="mono">/tramitacao/</span>, <span class="mono">/dificuldades/</span> — que sempre aponta para a
 versão mais recente. Cada versão também fica congelada no seu próprio endereço
-(<span class="mono">/dossie/v3/</span>, por exemplo) e nunca muda depois de publicada. O manifesto
+(<span class="mono">/{exemplo_v}</span>, por exemplo) e nunca muda depois de publicada. O manifesto
 <a href="versoes.json" class="mono">versoes.json</a> lista todas as versões com data, tamanho e
 <i>hash</i>, para que uma citação feita hoje continue verificável amanhã.</p>
 
