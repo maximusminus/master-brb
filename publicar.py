@@ -101,6 +101,16 @@ def landing(man):
       </p>
     </article>""" for a in man["artefatos"])
 
+    rasc = [("index.html", "BRB · Master · Vorcaro no registro da CLDF"),
+            ("dossie.html", "Dossiê BRB–Master, primeira geração"),
+            ("tramitacao.html", "Pergunta e Autorização, primeira geração")]
+    vizinho = os.path.join(os.path.dirname(RAIZ), "brb-master-vorcaro")
+    rascunhos = "\n".join(
+        f'<tr><th class="mono">{e(n)}</th><td>{e(d)}</td>'
+        f'<td class="n">{f"{os.path.getsize(os.path.join(vizinho, n)):,}".replace(",", ".")}</td>'
+        f'<td class="sh">local, não publicado</td></tr>'
+        for n, d in rasc if os.path.exists(os.path.join(vizinho, n)))
+
     prim = man["artefatos"][0]
     exemplo_v = prim["versoes"][0]["caminho"] if prim["versoes"] else prim["atual"]["caminho"]
 
@@ -117,7 +127,7 @@ def landing(man):
 <html lang="pt-BR">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>master-brb — relatórios abertos sobre a CLDF</title>
+<title>Relatórios adhoc — CLDF</title>
 <meta name="description" content="Relatórios reprodutíveis sobre a aquisição do Banco Master pelo BRB e sobre o acesso à informação na Câmara Legislativa do Distrito Federal.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Archivo:wght@400;500;600;700&display=swap">
 <style>
@@ -165,12 +175,26 @@ footer a{{color:var(--acc)}}
 <div class="wrap">
 <header>
   <div class="kick">Dados abertos · Câmara Legislativa do Distrito Federal</div>
-  <h1>Relatórios reprodutíveis sobre o que a CLDF publica<br>— e sobre o que ela não publica</h1>
+  <h1>Relatórios adhoc<br>sobre o que a CLDF publica — e sobre o que não publica</h1>
   <p class="dek">Cada relatório abaixo é derivado exclusivamente de dados abertos, colhidos por requisições
   públicas e não autenticadas. Os dados que os sustentam estão nesta mesma página, em CSV. Nada aqui pede
   que se acredite: tudo pode ser reconstruído.</p>
 </header>
+
+<h2 class="sec">Conjunto <span class="mono">master-brb</span></h2>
+<p class="sub">O BRB, o Banco Master e Daniel Vorcaro no acervo aberto da Casa: as ocorrências,
+a tramitação conjunta do pedido de informação e da autorização, e o que impede um cidadão de
+chegar sozinho a esses números.</p>
 {cartoes}
+
+<h2 class="sec">Ainda não publicados</h2>
+<p class="sub">A primeira geração destes mesmos relatórios, anterior à publicação. Fica registrada
+aqui por honestidade de percurso: existe, não está no ar, e foi substituída pelas versões acima.</p>
+<table>
+<thead><tr><th>Rascunho</th><th>O que é</th><th class="n">Bytes</th><th>Estado</th></tr></thead>
+<tbody>
+{rascunhos}
+</tbody></table>
 
 <h2 class="sec">Os dados</h2>
 <p class="sub">Os arquivos que sustentam os relatórios acima, em formato aberto. O <i>hash</i> de cada um está
