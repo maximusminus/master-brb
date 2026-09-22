@@ -1,0 +1,172 @@
+{
+ "gerado": "2026-09-22",
+ "artefatos": [
+  {
+   "slug": "dossie",
+   "titulo": "Dossiê BRB · Master · Vorcaro",
+   "linha": "Toda ocorrência das três palavras-chave no acervo aberto da CLDF, com o documento exato.",
+   "nums": [
+    [
+     "743",
+     "ocorrências"
+    ],
+    [
+     "281",
+     "no caso Master"
+    ],
+    [
+     "66",
+     "proposições"
+    ],
+    [
+     "28",
+     "votações"
+    ]
+   ],
+   "atual": {
+    "caminho": "dossie/",
+    "sha256": "b7edb415b2e8358df89c7944b93bdc225b724ff1b985111c727fa302f46faf50",
+    "bytes": 654881
+   },
+   "versoes": [
+    {
+     "v": "v3",
+     "caminho": "dossie/v3/",
+     "bytes": 654881,
+     "sha256": "b7edb415b2e8358df89c7944b93bdc225b724ff1b985111c727fa302f46faf50",
+     "data": "2026-09-22"
+    }
+   ]
+  },
+  {
+   "slug": "tramitacao",
+   "titulo": "REQ 1965/2025 e PL 1882/2025",
+   "linha": "A linha do tempo conjunta do pedido de informação e da lei — e a resposta que nunca veio.",
+   "nums": [
+    [
+     "106",
+     "eventos"
+    ],
+    [
+     "5d 17h",
+     "da criação à sanção"
+    ],
+    [
+     "9",
+     "emendas"
+    ],
+    [
+     "0",
+     "respostas"
+    ]
+   ],
+   "atual": {
+    "caminho": "tramitacao/",
+    "sha256": "1fe0a1746dc3ff422f8085fc68a8d1df432736df9522f070547235b109f5b4d3",
+    "bytes": 138243
+   },
+   "versoes": [
+    {
+     "v": "v2",
+     "caminho": "tramitacao/v2/",
+     "bytes": 138243,
+     "sha256": "1fe0a1746dc3ff422f8085fc68a8d1df432736df9522f070547235b109f5b4d3",
+     "data": "2026-09-22"
+    }
+   ]
+  },
+  {
+   "slug": "dificuldades",
+   "titulo": "As dificuldades de obter a informação",
+   "linha": "O que existe, o que funciona, o que não funciona, o que está concentrado e fragmentado.",
+   "nums": [
+    [
+     "1.231",
+     "pedidos de informação"
+    ],
+    [
+     "0",
+     "respostas legíveis"
+    ],
+    [
+     "55.610",
+     "documentos sem texto"
+    ],
+    [
+     "23 de 48",
+     "tipos nunca legíveis"
+    ]
+   ],
+   "atual": {
+    "caminho": "dificuldades/",
+    "sha256": "a891f818142d38e9f02a649c9b61fd87c5f0077a555623fd976d34779e2c94f6",
+    "bytes": 467473
+   },
+   "versoes": [
+    {
+     "v": "v1",
+     "caminho": "dificuldades/v1/",
+     "bytes": 467473,
+     "sha256": "a891f818142d38e9f02a649c9b61fd87c5f0077a555623fd976d34779e2c94f6",
+     "data": "2026-09-22"
+    }
+   ]
+  }
+ ],
+ "dados": [
+  {
+   "arquivo": "pedidos-de-informacao.csv",
+   "descricao": "Os 1.231 requerimentos de informação, com desfecho de cada um",
+   "bytes": 349323,
+   "sha256": "136202ed3015a673533ffad3b1e4af6dee1669ae7f83e924850d8e9fd41d87e6"
+  },
+  {
+   "arquivo": "tipos-de-documento.csv",
+   "descricao": "Os 48 tipos de documento e quantos são legíveis",
+   "bytes": 1445,
+   "sha256": "8a2fa49013007422824acbc9830cf1aa1274537a4a43493a8a64ce4e6b270421"
+  },
+  {
+   "arquivo": "ocorrencias.csv",
+   "descricao": "As 874 ocorrências brutas das três palavras-chave",
+   "bytes": 698394,
+   "sha256": "d1e526ed055ca8ad3b17023287a7e995fa4a1e74bfc388f237dc9fcd146f8daa"
+  },
+  {
+   "arquivo": "documentos.csv",
+   "descricao": "Os documentos do caso, com endereço de origem",
+   "bytes": 114268,
+   "sha256": "e1d6b8ca4fec1c34ba031255c2e46e503e19d54d12aaf0f5fe6c08d7b2f8b93b"
+  },
+  {
+   "arquivo": "emendas.csv",
+   "descricao": "As emendas ao PL 1882/2025",
+   "bytes": 33603,
+   "sha256": "84e8ac206993fb6991658597ffdfe576aa24078ff3c2390702ae52bfc7fbc010"
+  },
+  {
+   "arquivo": "votacoes.csv",
+   "descricao": "As votações nominais do caso",
+   "bytes": 22536,
+   "sha256": "99a3a6f18472ea93e0a37b28ba070c8da904c80ddd1971005637fd1d087103df"
+  },
+  {
+   "arquivo": "sessoes.csv",
+   "descricao": "As sessões em que o caso apareceu",
+   "bytes": 18697,
+   "sha256": "a46665e4e195803a23906cef51a2584cbd86be23db7206296037a7177bfb7473"
+  },
+  {
+   "arquivo": "anexos_pendentes.csv",
+   "descricao": "Os 68 documentos do caso que existem só como anexo",
+   "bytes": 10505,
+   "sha256": "7419d4cdb4639854270d6844e9f36b06f0591f0d79c91aafbc85202145b0b7e7"
+  },
+  {
+   "arquivo": "contagens.json",
+   "descricao": "Todas as contagens desta série, em JSON",
+   "bytes": 910,
+   "sha256": "85ccfacf851ff868d6d15aba3380bca236add3679843ab85e4361c47761dbfe3"
+  }
+ ]
+}

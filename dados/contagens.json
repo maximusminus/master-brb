@@ -1,0 +1,35 @@
+{
+  "total": 874,
+  "caso": 348,
+  "fora": 51,
+  "brb_outro": 475,
+  "props_caso": 66,
+  "docs_caso": 107,
+  "votacoes": 28,
+  "byclass": {
+    "BRB-OUTRO/BRB": 475,
+    "CASO/BRB": 209,
+    "CASO/Master": 133,
+    "CASO/Vorcaro": 6,
+    "FORA/Master": 51
+  },
+  "bysurface": {
+    "contrato/BRB-OUTRO": 5,
+    "contrato/FORA": 1,
+    "despesa — empenho/FORA": 6,
+    "despesa — pagamento/BRB-OUTRO": 4,
+    "despesa — pagamento/FORA": 3,
+    "documento/BRB-OUTRO": 232,
+    "documento/CASO": 189,
+    "documento/FORA": 23,
+    "dotação da LOA/BRB-OUTRO": 87,
+    "dotação da LOA/FORA": 1,
+    "emenda orçamentária/FORA": 13,
+    "proposição (ementa/payload)/BRB-OUTRO": 124,
+    "proposição (ementa/payload)/CASO": 134,
+    "proposição (ementa/payload)/FORA": 4,
+    "verba indenizatória/BRB-OUTRO": 20,
+    "votação em plenário/BRB-OUTRO": 3,
+    "votação em plenário/CASO": 25
+  }
+}

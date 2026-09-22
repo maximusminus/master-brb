@@ -1,0 +1,69 @@
+proposicao,proposicao_id,documento_id,documento_ref,tipo_documento,unidade_autora,data,id_arquivo,clausula,endpoint_listagem
+PL 1557/2025,150946,289245,,Designação de Relator,CDESCTMAT,2025-03-11,251680,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/150946/documento/ativas
+PL 1557/2025,150946,289896,,Designação de Relator,CAS,2025-03-18,314975,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/150946/documento/ativas
+PL 1557/2025,150946,290011,,Designação de Relator,CAS,2025-03-19,315075,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/150946/documento/ativas
+REQ 1938/2025,151794,291969,,Anexo,GAB DEP GABRIEL MAGNO,2025-03-28,315810,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/151794/documento/ativas
+REQ 2000/2025,152369,295084,,Anexo,GAB DEP PAULA BELMONTE,2025-05-06,316854,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/152369/documento/ativas
+REQ 2000/2025,152369,295618,,Anexo,SELEG,2025-05-09,317105,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/152369/documento/ativas
+REQ 2001/2025,152374,295112,,Anexo,GAB DEP PAULA BELMONTE,2025-05-06,316865,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/152374/documento/ativas
+PL 1882/2025,153779,306222,,Projeto de Lei,SERP-GDF,2025-08-14,325480,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306642,,Parecer,SELEG,2025-08-20,351780,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306645,,Folha de Votação,SELEG,2025-08-20,351781,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306648,,Folha de Votação,SELEG,2025-08-20,351782,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306651,,Parecer,SELEG,2025-08-20,351783,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306652,,Parecer,SELEG,2025-08-20,351784,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306653,,Folha de Votação,SELEG,2025-08-20,351785,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306654,,Folha de Votação,SELEG,2025-08-20,351786,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306716,,Redação Final,SELEG,2025-08-21,351841,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306717,,Mensagem,SELEG,2025-08-21,351842,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306718,,Publicação,SELEG,2025-08-21,351843,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306742,,Publicação,SELEG,2025-08-21,351852,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+PL 1882/2025,153779,306743,,Mensagem - Poder Executivo,SELEG,2025-08-21,351853,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153779/documento/ativas
+REQ 2199/2025,153841,306569,,Anexo,GAB DEP GABRIEL MAGNO,2025-08-19,351750,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153841/documento/ativas
+REQ 2199/2025,153841,306570,,Anexo,GAB DEP GABRIEL MAGNO,2025-08-19,351751,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153841/documento/ativas
+REQ 2199/2025,153841,306571,,Anexo,GAB DEP GABRIEL MAGNO,2025-08-19,351752,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153841/documento/ativas
+REQ 2205/2025,153852,306608,,Anexo,GAB DEP GABRIEL MAGNO,2025-08-15,351761,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/153852/documento/ativas
+REQ 2560/2026,155986,324410,,Anexo,SELEG,2026-02-04,363540,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/155986/documento/ativas
+REQ 2613/2026,156388,326069,,Folha de Votação,SELEG,2026-03-04,364636,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156388/documento/ativas
+PL 2175/2026,156411,325520,,Projeto de Lei,SERP-GDF,2026-02-24,364313,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326007,,Anexo,SELEG,2026-03-03,364577,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326046,,Parecer,SELEG,2026-03-04,364618,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326047,,Folha de Votação,SELEG,2026-03-04,364620,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326048,,Folha de Votação,SELEG,2026-03-04,364621,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326051,,Folha de Votação,SELEG,2026-03-04,364623,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326052,,Folha de Votação,SELEG,2026-03-04,364624,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326215,,Redação Final,SELEG,2026-03-06,364718,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326216,,Mensagem,SELEG,2026-03-06,364719,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326227,,Publicação,SELEG,2026-03-06,364725,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326231,,Redação Final,SELEG,2026-03-06,364728,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326254,,Publicação,SELEG,2026-03-06,364743,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326562,,Publicação,SELEG,2026-03-11,364912,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2175/2026,156411,326668,,Mensagem - Poder Executivo,SELEG,2026-03-12,364949,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/156411/documento/ativas
+PL 2322/2026,157767,333340,,Projeto de Lei,SERP-GDF,2026-05-15,368945,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/157767/documento/ativas
+PL 2322/2026,157767,333341,,Lei,SERP-GDF,2026-05-15,368946,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/157767/documento/ativas
+PL 2363/2026,158171,335252,,Projeto de Lei,SERP-GDF,2026-06-03,369887,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335253,,Lei,SERP-GDF,2026-06-03,369888,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335254,,Anexo,SERP-GDF,2026-06-03,369889,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335771,,Anexo,SELEG,2026-06-09,370216,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335779,,Anexo,PLENARIO,2026-06-09,370219,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335899,,Parecer,SELEG,2026-06-10,370304,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335900,,Folha de Votação,SELEG,2026-06-10,370305,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335901,,Parecer,SELEG,2026-06-10,370306,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335902,,Folha de Votação,SELEG,2026-06-10,370307,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335903,,Parecer,SELEG,2026-06-10,370308,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335904,,Folha de Votação,SELEG,2026-06-10,370309,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335905,,Notas Taquigráficas,SELEG,2026-06-10,370310,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335906,,Folha de Votação - Destaque,SELEG,2026-06-10,370311,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335907,,Notas Taquigráficas,SELEG,2026-06-10,370312,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335908,,Folha de Votação - Destaque,SELEG,2026-06-10,370313,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335909,,Notas Taquigráficas,SELEG,2026-06-10,370314,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335910,,Folha de Votação - Destaque,SELEG,2026-06-10,370315,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335911,,Folha de Votação,SELEG,2026-06-10,370316,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335913,,Folha de Votação,SELEG,2026-06-10,370318,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,335914,,Folha de Votação,SELEG,2026-06-10,370319,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,336004,,Redação Final,SELEG,2026-06-11,370376,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,336005,,Publicação,SELEG,2026-06-11,370377,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,336006,,Mensagem,SELEG,2026-06-11,370378,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,336012,,Parecer,SELEG,2026-06-11,370379,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,338303,,Publicação,SELEG,2026-06-24,371088,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas
+PL 2363/2026,158171,339790,,Mensagem - Poder Executivo,SELEG,2026-07-06,372134,,https://ple.cl.df.gov.br/pleservico/api/public/proposicao/158171/documento/ativas

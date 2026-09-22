@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>master-brb — relatórios abertos sobre a CLDF</title>
+<meta name="description" content="Relatórios reprodutíveis sobre a aquisição do Banco Master pelo BRB e sobre o acesso à informação na Câmara Legislativa do Distrito Federal.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Archivo:wght@400;500;600;700&display=swap">
+<style>
+:root{--ground:#eef0f3;--surface:#fff;--ink:#15181d;--muted:#5c6470;--faint:#8a929e;
+  --rule:#d6dae1;--rule2:#e6e9ee;--acc:#12626b;--neg:#9a434c}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ground:#11131a;--surface:#181b23;
+  --ink:#e7eaef;--muted:#9aa2af;--faint:#727b89;--rule:#2b303b;--rule2:#232833;--acc:#5cbac3;--neg:#dc8b92}}
+:root[data-theme="dark"]{--ground:#11131a;--surface:#181b23;--ink:#e7eaef;--muted:#9aa2af;--faint:#727b89;
+  --rule:#2b303b;--rule2:#232833;--acc:#5cbac3;--neg:#dc8b92}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:Archivo,Arial,sans-serif;
+  font-size:15px;line-height:1.55;-webkit-text-size-adjust:100%}
+.wrap{max-width:940px;margin:0 auto;padding-inline:16px;padding-block:0 72px}
+h1,h2{font-family:Newsreader,Georgia,serif;font-weight:600;margin:0;text-wrap:balance}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace}
+header{padding-block:48px 30px;border-bottom:1px solid var(--rule)}
+.kick{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600}
+h1{font-size:clamp(30px,5.6vw,46px);line-height:1.06;margin-top:12px;letter-spacing:-.015em}
+.dek{margin-top:15px;max-width:62ch;color:var(--muted);font-size:15.5px}
+.art{background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:20px 21px;margin-top:16px}
+.art h2{font-size:22px}
+.art h2 a{color:inherit;text-decoration:none;border-bottom:2px solid var(--acc)}
+.art h2 a:hover{color:var(--acc)}
+.linha{margin:9px 0 0;color:var(--muted);font-size:14px;max-width:66ch}
+.nums{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(112px,1fr));margin-top:16px}
+.nums div{border-left:2px solid var(--rule2);padding-left:11px}
+.nums b{display:block;font-family:Newsreader,serif;font-size:23px;font-weight:600;line-height:1.05;
+  font-variant-numeric:tabular-nums}
+.nums span{display:block;font-size:11.5px;color:var(--faint);margin-top:4px}
+.vs{margin:16px 0 0;padding-top:13px;border-top:1px solid var(--rule2);font-size:12.5px;color:var(--faint)}
+.vs a{display:inline-block;font-family:ui-monospace,monospace;font-size:12px;padding:3px 9px;margin-right:5px;
+  border:1px solid var(--rule);border-radius:100px;color:var(--muted);text-decoration:none}
+.vs a:hover{border-color:var(--acc);color:var(--acc)}
+.sh{color:var(--faint);font-size:11px}
+h2.sec{font-size:22px;margin-top:44px}
+p.sub{color:var(--muted);font-size:14px;max-width:66ch;margin-top:8px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:14px}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--rule2);vertical-align:top}
+td.n{text-align:right;font-family:ui-monospace,monospace;white-space:nowrap}
+th a{color:var(--acc)}
+footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--rule);font-size:12.5px;color:var(--faint);
+  max-width:76ch;line-height:1.6}
+footer a{color:var(--acc)}
+</style>
+<div class="wrap">
+<header>
+  <div class="kick">Dados abertos · Câmara Legislativa do Distrito Federal</div>
+  <h1>Relatórios reprodutíveis sobre o que a CLDF publica<br>— e sobre o que ela não publica</h1>
+  <p class="dek">Cada relatório abaixo é derivado exclusivamente de dados abertos, colhidos por requisições
+  públicas e não autenticadas. Os dados que os sustentam estão nesta mesma página, em CSV. Nada aqui pede
+  que se acredite: tudo pode ser reconstruído.</p>
+</header>
+
+    <article class="art">
+      <h2><a href="dossie/">Dossiê BRB · Master · Vorcaro</a></h2>
+      <p class="linha">Toda ocorrência das três palavras-chave no acervo aberto da CLDF, com o documento exato.</p>
+      <div class="nums"><div><b>743</b><span>ocorrências</span></div><div><b>281</b><span>no caso Master</span></div><div><b>66</b><span>proposições</span></div><div><b>28</b><span>votações</span></div></div>
+      <p class="vs">Versões:
+        <a href="dossie/v3/" title="b7edb415b2e8358d">v3</a>
+        <span class="sh mono" title="sha256 da versão atual">b7edb415b2e8358d</span>
+      </p>
+    </article>
+
+    <article class="art">
+      <h2><a href="tramitacao/">REQ 1965/2025 e PL 1882/2025</a></h2>
+      <p class="linha">A linha do tempo conjunta do pedido de informação e da lei — e a resposta que nunca veio.</p>
+      <div class="nums"><div><b>106</b><span>eventos</span></div><div><b>5d 17h</b><span>da criação à sanção</span></div><div><b>9</b><span>emendas</span></div><div><b>0</b><span>respostas</span></div></div>
+      <p class="vs">Versões:
+        <a href="tramitacao/v2/" title="1fe0a1746dc3ff42">v2</a>
+        <span class="sh mono" title="sha256 da versão atual">1fe0a1746dc3ff42</span>
+      </p>
+    </article>
+
+    <article class="art">
+      <h2><a href="dificuldades/">As dificuldades de obter a informação</a></h2>
+      <p class="linha">O que existe, o que funciona, o que não funciona, o que está concentrado e fragmentado.</p>
+      <div class="nums"><div><b>1.231</b><span>pedidos de informação</span></div><div><b>0</b><span>respostas legíveis</span></div><div><b>55.610</b><span>documentos sem texto</span></div><div><b>23 de 48</b><span>tipos nunca legíveis</span></div></div>
+      <p class="vs">Versões:
+        <a href="dificuldades/v1/" title="a891f818142d38e9">v1</a>
+        <span class="sh mono" title="sha256 da versão atual">a891f818142d38e9</span>
+      </p>
+    </article>
+
+<h2 class="sec">Os dados</h2>
+<p class="sub">Os arquivos que sustentam os relatórios acima, em formato aberto. O <i>hash</i> de cada um está
+publicado para que qualquer alteração futura seja detectável.</p>
+<table>
+<thead><tr><th>Arquivo</th><th>O que é</th><th class="n">Bytes</th><th>sha256</th></tr></thead>
+<tbody>
+<tr><th><a href="dados/pedidos-de-informacao.csv">pedidos-de-informacao.csv</a></th><td>Os 1.231 requerimentos de informação, com desfecho de cada um</td><td class="n">349.323</td><td class="mono sh">136202ed3015a673</td></tr>
+<tr><th><a href="dados/tipos-de-documento.csv">tipos-de-documento.csv</a></th><td>Os 48 tipos de documento e quantos são legíveis</td><td class="n">1.445</td><td class="mono sh">8a2fa49013007422</td></tr>
+<tr><th><a href="dados/ocorrencias.csv">ocorrencias.csv</a></th><td>As 874 ocorrências brutas das três palavras-chave</td><td class="n">698.394</td><td class="mono sh">d1e526ed055ca8ad</td></tr>
+<tr><th><a href="dados/documentos.csv">documentos.csv</a></th><td>Os documentos do caso, com endereço de origem</td><td class="n">114.268</td><td class="mono sh">e1d6b8ca4fec1c34</td></tr>
+<tr><th><a href="dados/emendas.csv">emendas.csv</a></th><td>As emendas ao PL 1882/2025</td><td class="n">33.603</td><td class="mono sh">84e8ac206993fb69</td></tr>
+<tr><th><a href="dados/votacoes.csv">votacoes.csv</a></th><td>As votações nominais do caso</td><td class="n">22.536</td><td class="mono sh">99a3a6f18472ea93</td></tr>
+<tr><th><a href="dados/sessoes.csv">sessoes.csv</a></th><td>As sessões em que o caso apareceu</td><td class="n">18.697</td><td class="mono sh">a46665e4e195803a</td></tr>
+<tr><th><a href="dados/anexos_pendentes.csv">anexos_pendentes.csv</a></th><td>Os 68 documentos do caso que existem só como anexo</td><td class="n">10.505</td><td class="mono sh">7419d4cdb4639854</td></tr>
+<tr><th><a href="dados/contagens.json">contagens.json</a></th><td>Todas as contagens desta série, em JSON</td><td class="n">910</td><td class="mono sh">85ccfacf851ff868</td></tr>
+</tbody></table>
+
+<h2 class="sec">Como as versões funcionam</h2>
+<p class="sub">Cada relatório tem um endereço estável — <span class="mono">/dossie/</span>,
+<span class="mono">/tramitacao/</span>, <span class="mono">/dificuldades/</span> — que sempre aponta para a
+versão mais recente. Cada versão também fica congelada no seu próprio endereço
+(<span class="mono">/dossie/v3/</span>, por exemplo) e nunca muda depois de publicada. O manifesto
+<a href="versoes.json" class="mono">versoes.json</a> lista todas as versões com data, tamanho e
+<i>hash</i>, para que uma citação feita hoje continue verificável amanhã.</p>
+
+<footer>
+<p>Gerado em 2026-09-22. Relatórios e código sob licença de uso não comercial; os dados derivados sob
+CC BY-SA 4.0, a mesma licença que a fonte declara. As fontes são a API pública de proposições da CLDF, o portal
+de dados abertos da Casa, os painéis do Portal da Transparência e a Biblioteca Digital. Nenhum sistema foi
+acessado com credencial e nenhuma informação restrita foi usada.</p>
+</footer>
+</div>
+</html>
