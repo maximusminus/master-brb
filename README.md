@@ -1,4 +1,4 @@
-# master-brb
+# relatorio-cldf
 
 Relatórios abertos e reprodutíveis sobre a Câmara Legislativa do Distrito Federal — derivados
 exclusivamente de dados públicos, colhidos por requisições não autenticadas.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera a landing page e o manifesto de versoes do repositorio master-brb.
+"""Gera a landing page e o manifesto de versoes do repositorio relatorio-cldf.
 
 Le a arvore publicada, calcula o sha256 de cada versao de cada artefato e emite
 `versoes.json` + `index.html`. Sem dependencia externa: so biblioteca padrao.
@@ -181,7 +181,7 @@ footer a{{color:var(--acc)}}
   que se acredite: tudo pode ser reconstruído.</p>
 </header>
 
-<h2 class="sec">Conjunto <span class="mono">master-brb</span></h2>
+<h2 class="sec">Conjunto <span class="mono">relatorio-cldf</span></h2>
 <p class="sub">O BRB, o Banco Master e Daniel Vorcaro no acervo aberto da Casa: as ocorrências,
 a tramitação conjunta do pedido de informação e da autorização, e o que impede um cidadão de
 chegar sozinho a esses números.</p>
